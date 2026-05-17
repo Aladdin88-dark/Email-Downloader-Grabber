@@ -230,7 +230,7 @@
 
 <br/>
 
-> ### 💬 Для покупки или вопросов → [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
+> ### 💬 Для покупки или вопросов → [`@cyberpaladin`](https://t.me/cyberpaladin)
 
 </div>
 
