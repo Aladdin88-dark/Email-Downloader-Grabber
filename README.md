@@ -6,7 +6,7 @@
 <p>
   <a href="./README.ru.md"><img src="https://img.shields.io/badge/README-🇷🇺%20Русский-1a56b0?style=for-the-badge" /></a>
   &nbsp;
-  <a href="https://t.me/YOUR_TELEGRAM_HERE"><img src="https://img.shields.io/badge/💬%20Buy%20%2F%20Contact-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+  <a href="https://t.me/cyberpaladin"><img src="https://img.shields.io/badge/💬%20Buy%20%2F%20Contact-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
 </p>
 
 <p>
@@ -341,7 +341,7 @@ app-folder/
 
 **Questions? Ready to purchase?**
 
-### 💬 [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
+### 💬 [`@cyberpaladin`](https://t.me/cyberpaladin)
 
 <br/>
 
