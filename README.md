@@ -1,78 +1,105 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=200&section=header&text=Email%20Grabber%20Pro&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Enterprise%20Email%20%26%20Security%20Analysis%20Suite&descSize=16&descAlignY=60&descColor=aaaaff" width="100%" />
-
-<br/>
-
-[![Lang](https://img.shields.io/badge/README-🇷🇺%20Русский-blue?style=for-the-badge)](./README.ru.md)
-
-<br/>
-
-<img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
-<img src="https://img.shields.io/badge/C%23-13.0-239120?style=flat-square&logo=csharp&logoColor=white"/>
-<img src="https://img.shields.io/badge/License-Commercial-DC143C?style=flat-square"/>
-<img src="https://img.shields.io/badge/IMAP%20Servers-3%2C000%2C000%2B-orange?style=flat-square"/>
-<img src="https://img.shields.io/badge/Status-Active-00C851?style=flat-square"/>
-
-<br/><br/>
-
-> **High-performance Windows desktop suite** for IMAP validation, email forensics,  
-> cloud storage audit, crypto key recovery and perceptual image fingerprinting.  
-> Built for security professionals and enterprise IT teams.
-
-<br/>
-
-[Key Features](#-key-features) · [Modules](#-modules) · [Anti-Public](#-anti-public--deep-dive) · [Pricing](#-pricing) · [Quick Start](#-quick-start)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=Email%20Grabber%20Pro&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Enterprise%20Email%20%26%20Security%20Analysis%20Suite&descSize=17&descAlignY=60&descColor=ddddff&animation=fadeIn" width="100%"/>
 
 </div>
-
----
-
-## ⚡ Key Features
 
 <div align="center">
 
-| | |
-|:---|:---|
-| 🌐 **Works without proxies** | Direct connection mode — no proxy required. Add proxies only when needed for rotation or anonymity. |
-| 📡 **3,000,000+ IMAP servers** | Built-in database covers virtually every mail domain on the planet. No manual configuration needed. |
-| 🌱 **Seed phrase extraction from emails** | Scans email bodies and attachments for BIP-39 mnemonic phrases and private keys automatically. |
-| 📷 **Seed phrase extraction from photos** | On-device OCR reads seed phrases and private keys directly from image files — no internet, no API. |
-| 📩 **Download emails by keyword** | Filter and download emails by sender, subject or custom keywords across any date range. |
-| 👁️ **Anti-Public without storing photos** | The engine stores only compact hash fingerprints (~1 KB per image), not the photos themselves. |
+[![RU](https://img.shields.io/badge/README-🇷🇺%20Русский-0057a8?style=for-the-badge)](./README.ru.md)
+&nbsp;
+[![Telegram](https://img.shields.io/badge/Contact-@YOUR__TELEGRAM__HERE-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/YOUR_TELEGRAM_HERE)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white"/>
+&nbsp;
+<img src="https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Language-C%23%2013-239120?style=flat-square&logo=csharp&logoColor=white"/>
+&nbsp;
+<img src="https://img.shields.io/badge/License-Commercial-DC143C?style=flat-square"/>
+&nbsp;
+<img src="https://img.shields.io/badge/IMAP%20Database-3%2C000%2C000%2B%20servers-f57c00?style=flat-square"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Active%20Development-00C851?style=flat-square"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║  6 professional modules  ·  3M+ IMAP servers  ·  No proxy required     ║
+║  On-device OCR  ·  Crypto forensics  ·  Anti-Public image engine        ║
+╚══════════════════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
 ---
 
-## 🧩 Modules
+<div align="center">
+
+## At a Glance
+
+</div>
+
+<div align="center">
+
+|   |   |   |
+|:---:|:---:|:---:|
+| 📡 **3,000,000+** | 🔑 **4 key types** | 🌐 **Proxy-free** |
+| Built-in IMAP server database | Seed · Hex · EVM · WIF | Works on direct connection |
+| 📷 **On-device OCR** | 👁️ **~1 KB per photo** | ⚡ **3,000 threads** |
+| No API key, fully offline | Anti-Public stores only hashes | Max parallelism |
+
+</div>
+
+---
+
+## 📦 Modules
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 📬 IMAP Email Checker
-Bulk credential validation against IMAP servers.
 
-- **Works without proxies** — direct connection supported
-- **3,000,000+ built-in server mappings** — auto-resolves any domain
-- Socks5 / HTTP proxy with per-account rotation
-- Re-check queue on network errors
-- Up to **3 000 parallel threads**
-- Real-time output → `Valid_Email.txt`
+Validates email credentials against IMAP servers at massive scale.
+
+```
+✔  Works without proxies (direct connection)
+✔  3,000,000+ built-in server mappings
+✔  Auto-resolves server from email domain
+✔  Socks5 / HTTP proxy with per-account rotation
+✔  Re-check queue for failed accounts
+✔  Up to 3,000 parallel threads
+✔  Real-time streaming → Valid_Email.txt
+```
 
 </td>
 <td width="50%" valign="top">
 
 ### 🔵 Hotmail / Outlook Checker
+
 Microsoft account audit via Web API.
 
-- Inbox · Sent · Drafts download
-- Attachment extraction with size & extension filters
-- **Built-in seed-phrase / private key scanner** in email bodies
-- Download emails **by keyword** (sender / subject filters)
-- Up to **3 000 sessions** + separate download thread pool
+```
+✔  Inbox · Sent · Drafts simultaneous download
+✔  Attachment extraction (size + extension filters)
+✔  Built-in BIP-39 seed phrase scanner
+✔  Built-in private key scanner (Hex · EVM · WIF)
+✔  Download emails by keyword (sender / subject)
+✔  Date-range filters
+✔  Up to 3,000 sessions + download thread pool
+```
 
 </td>
 </tr>
@@ -80,23 +107,32 @@ Microsoft account audit via Web API.
 <td width="50%" valign="top">
 
 ### 📥 IMAP Mix Email
-Deep attachment harvesting from any mailbox.
 
-- Scans Inbox · Sent · Deleted simultaneously
-- Extension whitelist (pdf, jpg, zip, xlsx, docx…)
-- **Seed / key detection** inside attachments and email bodies
-- **Keyword-based email download** with date-range filter
+Deep forensic harvesting from any IMAP mailbox.
+
+```
+✔  Inbox · Sent · Deleted Items in parallel
+✔  Extension whitelist (pdf jpg png zip xlsx…)
+✔  Seed phrase / private key detection
+✔  Download emails by keyword
+✔  Sender / subject / date-range filters
+✔  Works without proxies
+```
 
 </td>
 <td width="50%" valign="top">
 
 ### ☁️ OneDrive Auditor
+
 Cloud storage enumeration via Microsoft Live API.
 
-- 4 sub-modes: extension / keyword / both / API search
-- File size cap to skip irrelevant large files
-- **Integrated seed / key scanner** on all downloaded content
-- Up to **45 download threads**
+```
+✔  4 sub-modes: extension / keyword / both / API
+✔  File size cap to skip large irrelevant files
+✔  Seed phrase / private key scanner on results
+✔  Up to 45 parallel download threads
+✔  Works without proxies
+```
 
 </td>
 </tr>
@@ -104,30 +140,38 @@ Cloud storage enumeration via Microsoft Live API.
 <td width="50%" valign="top">
 
 ### 📷 Photo Seed & Key Scanner
-Crypto credential extraction from images via **on-device OCR**.
 
-> No internet required. No API key. Fully offline.
+Extracts cryptocurrency credentials from images using **on-device OCR**.
 
-- Formats: `jpg` `png` `heic` `heif` `webp` `bmp` `tiff` `gif` `avif`
-- OCR languages: EN · FR · ES · IT · PT · JP · KO · ZH · CS
-- Detects: **BIP-39 seed phrases** · Hex keys · EVM keys · WIF keys
-- Checksum validation — only valid seeds are reported
-- Up to **64 parallel workers**
-- Results: `Seed.txt` · `Hex.txt` · `Evm.txt` · `Wif.txt`
+```
+✔  No internet · no API key · fully offline
+✔  jpg png heic heif webp bmp tiff gif avif
+✔  OCR: EN FR ES IT PT JP KO ZH CS + more
+✔  BIP-39 seed phrases (12–24 words, checksum)
+✔  Hex private keys (64-char)
+✔  EVM keys (0x-prefixed)
+✔  WIF keys (5 / K / L prefix)
+✔  Up to 64 parallel workers
+✔  Real-time: Seed.txt Hex.txt Evm.txt Wif.txt
+```
 
 </td>
 <td width="50%" valign="top">
 
 ### 👁️ Anti-Public Image Engine
-Detects unique / unseen images without storing the photos locally.
 
-> **Only compact hash fingerprints are stored (~1 KB per image).**  
-> Original photos never need to be kept on disk.
+Detects unique / previously unseen images using **6-signal perceptual fingerprinting**.
 
-- 6-signal detection: SHA-256 · pHash×5 · dHash · aHash · edge-pHash · Histogram
-- Rotation & flip invariant (0° / 90° / 180° / 270° + mirror)
-- Works without proxies or internet connection
-- Auto-moves Anti-Public images to dated result folder
+```
+✔  Works without proxies or internet
+✔  Stores only hash fingerprints (~1 KB/image)
+✔  Original photos are NEVER stored on disk
+✔  6 signals: SHA-256 · pHash×5 · dHash
+            · aHash · edge-pHash · Histogram
+✔  Rotation invariant: 0° 90° 180° 270° + flip
+✔  Persistent hash database survives Result cleanup
+✔  Auto-moves Anti-Public images to Result folder
+```
 
 </td>
 </tr>
@@ -135,43 +179,51 @@ Detects unique / unseen images without storing the photos locally.
 
 ---
 
-## 👁️ Anti-Public — Deep Dive
+## 👁️ Anti-Public — How It Works
 
 <div align="center">
 
-| Signal | Algorithm | Resistant to |
+| Signal | What It Does | Resistant To |
 |:---:|:---|:---|
-| **SHA-256** | Exact file hash | — |
-| **pHash ×5** | DCT perceptual hash in 5 orientations | Resize · JPEG · format convert · rotation · flip |
-| **dHash** | Horizontal gradient hash | Brightness / contrast |
-| **aHash** | Average hash | Global structure changes |
-| **edge-pHash** | pHash on Canny edges | Colour filters · heavy toning |
-| **Histogram** | Bhattacharyya coefficient | Any spatial transformation |
+| **SHA-256** | Exact byte-level file match | — |
+| **pHash ×5** | DCT perceptual hash in 5 orientations | Resize · JPEG · format conversion · rotation · flip |
+| **dHash** | Horizontal gradient comparison | Brightness · contrast adjustments |
+| **aHash** | Global average luminance hash | Overall structural changes |
+| **edge-pHash** | pHash applied to Canny edge map | Colour grading · heavy filters · toning |
+| **Histogram** | Bhattacharyya colour distribution | All spatial transformations |
 
 </div>
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  RUN 1 — BUILD MODE                                         │
-│  ▸ Scan your "known / public" photo library                 │
-│  ▸ Only hash fingerprints are saved (~1 KB per image)       │
-│  ▸ Original photos are NOT stored or moved                  │
-├─────────────────────────────────────────────────────────────┤
-│  RUN 2+ — DETECTION MODE                                    │
-│  ▸ Each new image is compared against the hash database     │
-│  ▸ KNOWN   → stays in place                                 │
-│  ▸ UNKNOWN → Anti-Public → moved to Result folder           │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**Detection rules** — any single match classifies image as KNOWN:
+<br/>
 
 ```
-Rule 1  SHA-256 exact match
-Rule 2  best pHash ≤ 8    (all 5 rotation/flip variants)
-Rule 3  pHash ≤ 14   AND  dHash ≤ 10   AND  aHash ≤ 10
-Rule 4  edge-pHash ≤ 6   AND  histogram BC ≥ 0.95
-Rule 5  dHash ≤ 5    AND  aHash ≤ 5    AND  histogram BC ≥ 0.97
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │                      WORKFLOW                                        │
+  │                                                                      │
+  │  RUN 1 — BUILD MODE                                                  │
+  │  ┌────────────────────────────────────────────────────────────┐      │
+  │  │  Feed your "known / public" library                        │      │
+  │  │  → Only hash fingerprints saved  (~1 KB per image)         │      │
+  │  │  → Original photos untouched. Nothing is moved.            │      │
+  │  └────────────────────────────────────────────────────────────┘      │
+  │                                                                      │
+  │  RUN 2+ — DETECTION MODE                                             │
+  │  ┌──────────────────────────┐   ┌──────────────────────────┐        │
+  │  │  Image found in DB       │   │  Image NOT in DB          │        │
+  │  │  → KNOWN (public)        │   │  → ANTI-PUBLIC (unique)   │        │
+  │  │  → Stays in place        │   │  → Moved to Result\       │        │
+  │  └──────────────────────────┘   └──────────────────────────┘        │
+  └──────────────────────────────────────────────────────────────────────┘
+```
+
+**Detection rules** — first match wins:
+
+```
+  Rule 1  SHA-256 exact file match
+  Rule 2  best pHash ≤ 8     across all 5 rotation/flip variants
+  Rule 3  pHash ≤ 14   AND   dHash ≤ 10   AND   aHash ≤ 10
+  Rule 4  edge-pHash ≤ 6    AND   histogram BC ≥ 0.95
+  Rule 5  dHash ≤ 5    AND   aHash ≤ 5    AND   histogram BC ≥ 0.97
 ```
 
 ---
@@ -180,15 +232,51 @@ Rule 5  dHash ≤ 5    AND  aHash ≤ 5    AND  histogram BC ≥ 0.97
 
 <div align="center">
 
-| Plan | Price | Duration | Modules |
-|:---:|:---:|:---:|:---|
-| 🗓️ **Weekly** | **$50** | 7 days | All 6 modules |
-| 📅 **Monthly** | **$80** | 30 days | All 6 modules |
-| ♾️ **Lifetime** | **$200** | Forever | All 6 modules + all future updates |
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 🗓️ Weekly
+# $50
+**7 days**
+
+All 6 modules  
+Full functionality  
+Email support
+
+</td>
+<td align="center" width="33%">
+
+### 📅 Monthly
+# $80
+**30 days**
+
+All 6 modules  
+Full functionality  
+Priority support
+
+</td>
+<td align="center" width="33%">
+
+### ♾️ Lifetime
+# $200
+**Forever**
+
+All 6 modules  
+All future updates  
+Priority support
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-📩 **To purchase or ask questions — contact via Telegram**
+> 💬 **To purchase a license or ask any question:**
+>
+> ### [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
+>
+> *(Replace `YOUR_TELEGRAM_HERE` with your actual username)*
 
 </div>
 
@@ -196,54 +284,60 @@ Rule 5  dHash ≤ 5    AND  aHash ≤ 5    AND  histogram BC ≥ 0.97
 
 ## 🚀 Quick Start
 
-```bash
-# 1. Download the latest release from the Releases tab
-# 2. Extract to any folder — no installation required
-# 3. Run the executable
-Email Grabber.exe
-# 4. Enter your license key on first launch
-```
+**1. Download** the latest release from the [Releases](../../releases) tab
 
-**Optional files next to the executable:**
+**2. Extract** to any folder — portable, no installation required
+
+**3. Run** `Email Grabber.exe`
+
+**4. Enter** your license key on first launch
+
+<br/>
+
+Optional files next to the executable:
 
 ```
-imap_servers.txt    — override IMAP server mappings (3M+ built-in)
+imap_servers.txt    — custom server overrides  (3M+ built-in, usually not needed)
 imap_accounts.txt   — email:password list
-proxies.txt         — proxy list (optional — works without proxies)
+proxies.txt         — proxy list              (optional — works without proxies)
 ```
 
 ---
 
-## 📄 Input Formats
+## 📄 Input File Formats
 
 <details>
-<summary><code>imap_accounts.txt</code></summary>
+<summary><b>imap_accounts.txt</b></summary>
+<br/>
 
 ```
-user@gmail.com:password123
-user@outlook.com:mypassword
+user@gmail.com:password
+user@outlook.com:password
+user@yahoo.com:password
 ```
 
 </details>
 
 <details>
-<summary><code>imap_servers.txt</code> — three formats supported (optional override)</summary>
+<summary><b>imap_servers.txt</b> — three formats supported</summary>
+<br/>
 
 ```ini
-# Tag-based
+# Format 1 — tag-based (recommended)
 [DOMAINS]gmail.com[/DOMAINS][SERVER]imap.gmail.com[/SERVER][PORT]993[/PORT][SSL]true[/SSL]
 
-# INI key=value
+# Format 2 — INI key=value
 outlook.com = imap-mail.outlook.com:993
 
-# Whitespace-separated
+# Format 3 — whitespace-separated
 yahoo.com   imap.mail.yahoo.com   993
 ```
 
 </details>
 
 <details>
-<summary><code>proxies.txt</code> — optional, works without proxies</summary>
+<summary><b>proxies.txt</b> — optional (works without proxies)</summary>
+<br/>
 
 ```
 192.168.1.1:1080
@@ -261,19 +355,23 @@ http://user:pass@proxy.example.com:8080
 ```
 app-folder/
 │
-├── AntiPublic/                          ← permanent hash DB, never cleared
-│   ├── phash_database.txt               ← ~1 KB per image, no photos stored
-│   └── AntiPublic_features.txt
+├── AntiPublic/                               ← permanent hash DB (never cleared)
+│   ├── phash_database.txt                    ← ~1 KB per image, no photos stored
+│   └── AntiPublic_features.txt               ← full visual feature log
 │
 └── Result/
-    ├── Valid_Email.txt
+    ├── Valid_Email.txt                        ← IMAP checker valid credentials
     ├── Hotmail_DD_MM_YYYY_HH_MM_SS/
     │   ├── emails/
     │   └── attachments/
     ├── IMAP_DD_MM_YYYY_HH_MM_SS/
+    │   └── account@domain/
     ├── OneDrive_DD_MM_YYYY_HH_MM_SS/
     ├── PhotoSeed&PK_DD_MM_YYYY_HH_MM_SS/
-    │   ├── Seed.txt  ├── Hex.txt  ├── Evm.txt  └── Wif.txt
+    │   ├── Seed.txt
+    │   ├── Hex.txt
+    │   ├── Evm.txt
+    │   └── Wif.txt
     └── Anti-Public_DD_MM_YYYY_HH_MM_SS/
 ```
 
@@ -281,37 +379,52 @@ app-folder/
 
 ## 💻 System Requirements
 
-| | |
+| Requirement | Details |
 |:---|:---|
-| **OS** | Windows 10 (22621+) · Windows 11 |
-| **Runtime** | .NET 9 — bundled in release |
-| **CPU** | x64 · 4+ cores recommended |
-| **RAM** | 4 GB min · 8 GB recommended |
-| **Proxy** | Optional — direct connection supported |
-| **OCR** | Windows OCR packs via Settings → Language |
+| **Operating System** | Windows 10 (build 22621+) or Windows 11 |
+| **Runtime** | .NET 9 — bundled inside the release binary |
+| **CPU** | x64 architecture · 4+ cores recommended |
+| **RAM** | 4 GB minimum · 8 GB recommended |
+| **Proxy** | Optional — direct connection fully supported |
+| **OCR** | Windows OCR language packs (Settings → Time & Language → Language) |
 
 ---
 
-## 🔧 Stack
+## 🔧 Technology Stack
 
 <div align="center">
 
-`C# 13` · `.NET 9` · `WPF` · `ModernWpf` · `MailKit` · `Magick.NET` · `Windows.Media.Ocr` · `NBitcoin` · `System.Text.Json`
+| Layer | Technology |
+|:---:|:---|
+| **Language** | C# 13 on .NET 9 |
+| **UI** | WPF + ModernWpf — native Windows 11 design language |
+| **IMAP** | MailKit — industry-standard mail library |
+| **Image processing** | Magick.NET — ImageMagick bindings for .NET |
+| **OCR** | Windows.Media.Ocr — on-device, zero latency, no API key |
+| **Crypto** | NBitcoin — BIP-39 validation and key format support |
+| **Serialization** | System.Text.Json |
 
 </div>
 
 ---
 
-## ⚖️ Legal
+## ⚖️ Legal Notice
 
-> This software is for **authorized** security research and IT administration only.  
-> You must have explicit authorization before using it against systems you do not own.  
-> The authors accept no liability for misuse.
+> This software is intended exclusively for **authorized** security research, penetration testing, corporate IT audits, and lawful OSINT operations.
+>
+> You must hold explicit written permission before using this tool against any system you do not own or administer.
+> Unauthorized use may constitute a criminal offense under applicable law. The authors and distributors accept no liability for misuse.
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
+**Questions? Ready to purchase?**
+
+## [`@cyberpaladin`](https://t.me/cyberpaladin)
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" width="100%"/>
 
 </div>
