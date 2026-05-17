@@ -421,7 +421,7 @@ http://user:pass@proxy.example.com:8080
 
 **Вопросы? Готовы купить?**
 
-## [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
+## [`@cyberpaladin`](https://t.me/cyberpaladin)
 
 <br/>
 
