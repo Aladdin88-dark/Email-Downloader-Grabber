@@ -1,212 +1,234 @@
 <div align="center">
 
-<h1>✉️ Email Grabber Pro</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=200&section=header&text=Email%20Grabber%20Pro&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Enterprise%20Email%20%26%20Security%20Analysis%20Suite&descSize=16&descAlignY=60&descColor=aaaaff" width="100%" />
 
-<p><strong>Enterprise-grade email validation · attachment extraction · cloud audit · Anti-Public image engine</strong></p>
+<br/>
 
-<p>
-  <img src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/.NET-9.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-13.0-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/license-Commercial-DC143C?style=for-the-badge" />
-</p>
+[![Lang](https://img.shields.io/badge/README-🇷🇺%20Русский-blue?style=for-the-badge)](./README.ru.md)
+
+<br/>
+
+<img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white"/>
+<img src="https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%23-13.0-239120?style=flat-square&logo=csharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/License-Commercial-DC143C?style=flat-square"/>
+<img src="https://img.shields.io/badge/IMAP%20Servers-3%2C000%2C000%2B-orange?style=flat-square"/>
+<img src="https://img.shields.io/badge/Status-Active-00C851?style=flat-square"/>
+
+<br/><br/>
+
+> **High-performance Windows desktop suite** for IMAP validation, email forensics,  
+> cloud storage audit, crypto key recovery and perceptual image fingerprinting.  
+> Built for security professionals and enterprise IT teams.
+
+<br/>
+
+[Key Features](#-key-features) · [Modules](#-modules) · [Anti-Public](#-anti-public--deep-dive) · [Pricing](#-pricing) · [Quick Start](#-quick-start)
 
 </div>
 
 ---
 
-## 📌 Overview
+## ⚡ Key Features
 
-**Email Grabber Pro** is a high-performance Windows desktop application built for security professionals, OSINT analysts and enterprise IT teams.
-
-Six specialized modules in one modern Windows 11–style interface — from bulk IMAP credential validation to forensic cryptocurrency key recovery from photos.
-
-> ⚠️ **Authorized use only.** This tool is intended exclusively for security research, authorized penetration testing, corporate IT audits, and lawful OSINT operations. The user is solely responsible for compliance with applicable laws.
-
----
-
-## ⚙️ Modules
-
-<details>
-<summary><strong>1 · IMAP Email Checker</strong> — validates credentials at scale</summary>
-<br>
-
-Validates email credentials against IMAP servers with high parallelism and automatic server resolution.
-
-| Feature | Detail |
-|---|---|
-| Server resolution | Auto-resolved from `imap_servers.txt` by email domain |
-| Proxy support | Socks5 / HTTP, per-account rotation |
-| Parallelism | Up to **3 000 threads** |
-| Re-check queue | Automatic retry on network errors |
-| Output | Real-time stream → `Result/Valid_Email.txt` |
-
-</details>
-
----
-
-<details>
-<summary><strong>2 · Hotmail / Outlook Checker</strong> — Microsoft account auditor</summary>
-<br>
-
-Authenticates Outlook and Live accounts via the Microsoft Web API and downloads associated data.
-
-- Downloads emails from **Inbox**, **Sent**, **Drafts**
-- Attachment extraction with size cap and extension whitelist
-- Integrated **seed-phrase / private key scanner** in email bodies
-- Configurable sender and subject keyword filters
-- Up to **3 000 parallel sessions** + separate download thread pool
-
-</details>
-
----
-
-<details>
-<summary><strong>3 · IMAP Mix Email</strong> — deep attachment harvesting</summary>
-<br>
-
-Extracts attachments from any IMAP-compatible mailbox across all folders simultaneously.
-
-- Searches **Inbox**, **Sent**, **Deleted Items** in parallel
-- Extension whitelist: `.pdf` `.jpg` `.png` `.zip` `.xlsx` `.docx` and more
-- Seed-phrase / private key detection inside attachments
-- Date-range and sender / subject keyword filters
-
-</details>
-
----
-
-<details>
-<summary><strong>4 · OneDrive Auditor</strong> — cloud storage analysis</summary>
-<br>
-
-Enumerates and selectively downloads files from OneDrive via the Microsoft Live API.
-
-- **Four sub-modes:** by extension · by keyword · both · internal API search
-- File size cap to prevent downloading large irrelevant files
-- Integrated seed / key scanner on all downloaded content
-- Up to **45 parallel download threads**
-
-</details>
-
----
-
-<details>
-<summary><strong>5 · Photo Seed & Private Key Scanner</strong> — OCR-based crypto forensics</summary>
-<br>
-
-Extracts cryptocurrency credentials directly from image files using **on-device OCR** — no internet, no API key required.
-
-**Supported image formats**
-
-`.jpg` `.jpeg` `.png` `.heic` `.heif` `.webp` `.bmp` `.tiff` `.gif` `.avif`
-
-**Detected credential types**
-
-| Type | Pattern |
-|---|---|
-| BIP-39 Seed phrase | 12 / 15 / 18 / 21 / 24 words — checksum validated |
-| Hex private key | 64 hexadecimal characters |
-| EVM key | `0x` + 64-char hex |
-| WIF key | Starts with `5`, `K` or `L` |
-
-**OCR language support:** English · French · Spanish · Italian · Portuguese · Japanese · Korean · Chinese (Simplified + Traditional) · Czech
-
-Results streamed in real time: `Seed.txt` · `Hex.txt` · `Evm.txt` · `Wif.txt`
-
-Up to **64 parallel workers.**
-
-</details>
-
----
-
-<details>
-<summary><strong>6 · Anti-Public Image Engine</strong> — proprietary perceptual fingerprinting</summary>
-<br>
-
-Detects whether a photo is already **"public"** (previously seen and catalogued) using a 6-signal perceptual fingerprinting system — without any cloud service.
-
-### Signal table
-
-| # | Signal | Algorithm | Resistant to |
-|---|---|---|---|
-| 1 | SHA-256 | Exact file hash | — |
-| 2 | pHash ×5 | DCT perceptual hash in **5 orientations** | Resize · JPEG compression · format conversion · rotation 90/180/270° · horizontal flip |
-| 3 | dHash | Horizontal gradient hash | Brightness / contrast changes |
-| 4 | aHash | Average hash | Global structure changes |
-| 5 | edge-pHash | pHash computed on Canny-edge image | Colour filters · heavy toning |
-| 6 | Histogram | Bhattacharyya coefficient | Any spatial transformation |
-
-### How it works
-
-```
-Run 1 — BUILD MODE
-  Scan your "known / public" photo library.
-  All images are indexed into the database.
-  Nothing is moved.
-
-Run 2+ — DETECTION MODE
-  Each image is compared against the database using 5 independent rules.
-  Images NOT matching → classified as Anti-Public
-  → automatically moved to: Result\Anti-Public_DD_MM_YYYY_HH_MM_SS\
-```
-
-### Detection rules (any one match = image is KNOWN)
-
-```
-Rule 1  SHA-256 exact file match
-Rule 2  best pHash ≤ 8  across all 5 rotation/flip variants
-Rule 3  pHash ≤ 14  AND  dHash ≤ 10  AND  aHash ≤ 10
-Rule 4  edge-pHash ≤ 6  AND  histogram BC ≥ 0.95
-Rule 5  dHash ≤ 5  AND  aHash ≤ 5   AND  histogram BC ≥ 0.97
-```
-
-The **database is stored permanently** next to the executable in `AntiPublic/` and is never deleted with the Result folder.
-
-</details>
-
----
-
-## 💻 System Requirements
+<div align="center">
 
 | | |
-|---|---|
-| **OS** | Windows 10 (build 22621+) or Windows 11 |
-| **Runtime** | .NET 9 — bundled in the release build |
-| **CPU** | x64, 4+ cores recommended |
-| **RAM** | 4 GB minimum · 8 GB recommended |
-| **OCR** | Windows OCR language packs (Settings → Time & Language → Language) |
+|:---|:---|
+| 🌐 **Works without proxies** | Direct connection mode — no proxy required. Add proxies only when needed for rotation or anonymity. |
+| 📡 **3,000,000+ IMAP servers** | Built-in database covers virtually every mail domain on the planet. No manual configuration needed. |
+| 🌱 **Seed phrase extraction from emails** | Scans email bodies and attachments for BIP-39 mnemonic phrases and private keys automatically. |
+| 📷 **Seed phrase extraction from photos** | On-device OCR reads seed phrases and private keys directly from image files — no internet, no API. |
+| 📩 **Download emails by keyword** | Filter and download emails by sender, subject or custom keywords across any date range. |
+| 👁️ **Anti-Public without storing photos** | The engine stores only compact hash fingerprints (~1 KB per image), not the photos themselves. |
+
+</div>
+
+---
+
+## 🧩 Modules
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📬 IMAP Email Checker
+Bulk credential validation against IMAP servers.
+
+- **Works without proxies** — direct connection supported
+- **3,000,000+ built-in server mappings** — auto-resolves any domain
+- Socks5 / HTTP proxy with per-account rotation
+- Re-check queue on network errors
+- Up to **3 000 parallel threads**
+- Real-time output → `Valid_Email.txt`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔵 Hotmail / Outlook Checker
+Microsoft account audit via Web API.
+
+- Inbox · Sent · Drafts download
+- Attachment extraction with size & extension filters
+- **Built-in seed-phrase / private key scanner** in email bodies
+- Download emails **by keyword** (sender / subject filters)
+- Up to **3 000 sessions** + separate download thread pool
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📥 IMAP Mix Email
+Deep attachment harvesting from any mailbox.
+
+- Scans Inbox · Sent · Deleted simultaneously
+- Extension whitelist (pdf, jpg, zip, xlsx, docx…)
+- **Seed / key detection** inside attachments and email bodies
+- **Keyword-based email download** with date-range filter
+
+</td>
+<td width="50%" valign="top">
+
+### ☁️ OneDrive Auditor
+Cloud storage enumeration via Microsoft Live API.
+
+- 4 sub-modes: extension / keyword / both / API search
+- File size cap to skip irrelevant large files
+- **Integrated seed / key scanner** on all downloaded content
+- Up to **45 download threads**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📷 Photo Seed & Key Scanner
+Crypto credential extraction from images via **on-device OCR**.
+
+> No internet required. No API key. Fully offline.
+
+- Formats: `jpg` `png` `heic` `heif` `webp` `bmp` `tiff` `gif` `avif`
+- OCR languages: EN · FR · ES · IT · PT · JP · KO · ZH · CS
+- Detects: **BIP-39 seed phrases** · Hex keys · EVM keys · WIF keys
+- Checksum validation — only valid seeds are reported
+- Up to **64 parallel workers**
+- Results: `Seed.txt` · `Hex.txt` · `Evm.txt` · `Wif.txt`
+
+</td>
+<td width="50%" valign="top">
+
+### 👁️ Anti-Public Image Engine
+Detects unique / unseen images without storing the photos locally.
+
+> **Only compact hash fingerprints are stored (~1 KB per image).**  
+> Original photos never need to be kept on disk.
+
+- 6-signal detection: SHA-256 · pHash×5 · dHash · aHash · edge-pHash · Histogram
+- Rotation & flip invariant (0° / 90° / 180° / 270° + mirror)
+- Works without proxies or internet connection
+- Auto-moves Anti-Public images to dated result folder
+
+</td>
+</tr>
+</table>
+
+---
+
+## 👁️ Anti-Public — Deep Dive
+
+<div align="center">
+
+| Signal | Algorithm | Resistant to |
+|:---:|:---|:---|
+| **SHA-256** | Exact file hash | — |
+| **pHash ×5** | DCT perceptual hash in 5 orientations | Resize · JPEG · format convert · rotation · flip |
+| **dHash** | Horizontal gradient hash | Brightness / contrast |
+| **aHash** | Average hash | Global structure changes |
+| **edge-pHash** | pHash on Canny edges | Colour filters · heavy toning |
+| **Histogram** | Bhattacharyya coefficient | Any spatial transformation |
+
+</div>
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  RUN 1 — BUILD MODE                                         │
+│  ▸ Scan your "known / public" photo library                 │
+│  ▸ Only hash fingerprints are saved (~1 KB per image)       │
+│  ▸ Original photos are NOT stored or moved                  │
+├─────────────────────────────────────────────────────────────┤
+│  RUN 2+ — DETECTION MODE                                    │
+│  ▸ Each new image is compared against the hash database     │
+│  ▸ KNOWN   → stays in place                                 │
+│  ▸ UNKNOWN → Anti-Public → moved to Result folder           │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Detection rules** — any single match classifies image as KNOWN:
+
+```
+Rule 1  SHA-256 exact match
+Rule 2  best pHash ≤ 8    (all 5 rotation/flip variants)
+Rule 3  pHash ≤ 14   AND  dHash ≤ 10   AND  aHash ≤ 10
+Rule 4  edge-pHash ≤ 6   AND  histogram BC ≥ 0.95
+Rule 5  dHash ≤ 5    AND  aHash ≤ 5    AND  histogram BC ≥ 0.97
+```
+
+---
+
+## 💳 Pricing
+
+<div align="center">
+
+| Plan | Price | Duration | Modules |
+|:---:|:---:|:---:|:---|
+| 🗓️ **Weekly** | **$50** | 7 days | All 6 modules |
+| 📅 **Monthly** | **$80** | 30 days | All 6 modules |
+| ♾️ **Lifetime** | **$200** | Forever | All 6 modules + all future updates |
+
+<br/>
+
+📩 **To purchase or ask questions — contact via Telegram**
+
+</div>
 
 ---
 
 ## 🚀 Quick Start
 
-```
-1. Download the latest release from the Releases tab
-2. Extract to any folder — no installation required
-3. Run Email Grabber.exe
-4. Enter your license key on first launch
+```bash
+# 1. Download the latest release from the Releases tab
+# 2. Extract to any folder — no installation required
+# 3. Run the executable
+Email Grabber.exe
+# 4. Enter your license key on first launch
 ```
 
-Optionally place these files next to the executable:
+**Optional files next to the executable:**
 
 ```
-imap_servers.txt    — custom IMAP server mappings
-imap_accounts.txt   — email:password credential list
-proxies.txt         — proxy list
+imap_servers.txt    — override IMAP server mappings (3M+ built-in)
+imap_accounts.txt   — email:password list
+proxies.txt         — proxy list (optional — works without proxies)
 ```
 
 ---
 
-## 📄 Input File Formats
+## 📄 Input Formats
 
-**`imap_accounts.txt`**
+<details>
+<summary><code>imap_accounts.txt</code></summary>
+
 ```
 user@gmail.com:password123
 user@outlook.com:mypassword
 ```
 
-**`imap_servers.txt`** — three supported formats
+</details>
+
+<details>
+<summary><code>imap_servers.txt</code> — three formats supported (optional override)</summary>
+
 ```ini
 # Tag-based
 [DOMAINS]gmail.com[/DOMAINS][SERVER]imap.gmail.com[/SERVER][PORT]993[/PORT][SSL]true[/SSL]
@@ -218,13 +240,19 @@ outlook.com = imap-mail.outlook.com:993
 yahoo.com   imap.mail.yahoo.com   993
 ```
 
-**`proxies.txt`**
+</details>
+
+<details>
+<summary><code>proxies.txt</code> — optional, works without proxies</summary>
+
 ```
 192.168.1.1:1080
 user:pass@192.168.1.2:1080
 socks5://user:pass@proxy.example.com:1080
 http://user:pass@proxy.example.com:8080
 ```
+
+</details>
 
 ---
 
@@ -233,73 +261,57 @@ http://user:pass@proxy.example.com:8080
 ```
 app-folder/
 │
-├── AntiPublic/                        ← permanent DB (never cleared)
-│   ├── phash_database.txt             ← perceptual hash index
-│   └── AntiPublic_features.txt        ← full visual feature log
+├── AntiPublic/                          ← permanent hash DB, never cleared
+│   ├── phash_database.txt               ← ~1 KB per image, no photos stored
+│   └── AntiPublic_features.txt
 │
 └── Result/
-    ├── Valid_Email.txt                 ← IMAP checker — valid credentials
-    │
-    ├── Hotmail_DD_MM_YYYY_HH_MM_SS/   ← Hotmail run results
+    ├── Valid_Email.txt
+    ├── Hotmail_DD_MM_YYYY_HH_MM_SS/
     │   ├── emails/
     │   └── attachments/
-    │
-    ├── IMAP_DD_MM_YYYY_HH_MM_SS/      ← IMAP Mix run results
-    │   └── account@domain/
-    │
-    ├── OneDrive_DD_MM_YYYY_HH_MM_SS/  ← OneDrive run results
-    │
-    ├── PhotoSeed&PK_DD_MM_YYYY/       ← Photo scanner results
-    │   ├── Seed.txt
-    │   ├── Hex.txt
-    │   ├── Evm.txt
-    │   └── Wif.txt
-    │
-    └── Anti-Public_DD_MM_YYYY/        ← Anti-Public detected images
+    ├── IMAP_DD_MM_YYYY_HH_MM_SS/
+    ├── OneDrive_DD_MM_YYYY_HH_MM_SS/
+    ├── PhotoSeed&PK_DD_MM_YYYY_HH_MM_SS/
+    │   ├── Seed.txt  ├── Hex.txt  ├── Evm.txt  └── Wif.txt
+    └── Anti-Public_DD_MM_YYYY_HH_MM_SS/
 ```
 
 ---
 
-## 🔧 Technical Stack
+## 💻 System Requirements
 
-| Component | Technology |
-|---|---|
-| Language | C# 13 / .NET 9 |
-| UI framework | WPF + ModernWpf (Windows 11 design language) |
-| IMAP protocol | MailKit |
-| Image processing | Magick.NET (ImageMagick bindings) |
-| On-device OCR | Windows.Media.Ocr — no API key required |
-| Crypto validation | NBitcoin |
-| Serialization | System.Text.Json |
-
----
-
-## 💳 Licensing
-
-This is **commercial software**. A valid license key is required to run the application.
-
-| Plan | Modules included | Duration |
-|---|---|---|
-| **Basic** | IMAP Checker + Hotmail | 30 days |
-| **Professional** | All 6 modules | 30 days |
-| **Enterprise** | All 6 modules + priority support | 90 days |
-
-📩 **Purchase & inquiries** → Telegram
+| | |
+|:---|:---|
+| **OS** | Windows 10 (22621+) · Windows 11 |
+| **Runtime** | .NET 9 — bundled in release |
+| **CPU** | x64 · 4+ cores recommended |
+| **RAM** | 4 GB min · 8 GB recommended |
+| **Proxy** | Optional — direct connection supported |
+| **OCR** | Windows OCR packs via Settings → Language |
 
 ---
 
-## ⚖️ Legal Disclaimer
+## 🔧 Stack
 
-This software is provided for **authorized** security research and IT administration purposes only.
+<div align="center">
 
-- You must have **explicit written authorization** before using this tool against any system you do not own
-- Unauthorized use against third-party systems may violate local and international laws including the CFAA, GDPR, and equivalents
-- The authors and distributors accept **no liability** for misuse
+`C# 13` · `.NET 9` · `WPF` · `ModernWpf` · `MailKit` · `Magick.NET` · `Windows.Media.Ocr` · `NBitcoin` · `System.Text.Json`
+
+</div>
+
+---
+
+## ⚖️ Legal
+
+> This software is for **authorized** security research and IT administration only.  
+> You must have explicit authorization before using it against systems you do not own.  
+> The authors accept no liability for misuse.
 
 ---
 
 <div align="center">
 
-Built for security professionals &nbsp;·&nbsp; Windows 10 / 11 &nbsp;·&nbsp; .NET 9
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
 
 </div>
