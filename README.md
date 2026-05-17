@@ -1,10 +1,22 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%"/>
+<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#1a1a4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="180" fill="url(#bg)" rx="14"/>
+  <rect x="0" y="0" width="800" height="3" fill="#7b7bff" rx="2"/>
+  <rect x="0" y="177" width="800" height="3" fill="#7b7bff" rx="2"/>
+  <text x="400" y="88" font-family="Arial,sans-serif" font-size="46" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Email Grabber Pro</text>
+  <text x="400" y="138" font-family="Arial,sans-serif" font-size="16" fill="#aaaaee" text-anchor="middle">Enterprise Email &amp; Security Analysis Suite</text>
+  <line x1="300" y1="116" x2="500" y2="116" stroke="#7b7bff" stroke-width="1" opacity="0.6"/>
+</svg>
 
-</div>
-
-<div align="center">
+<br/>
 
 [![RU](https://img.shields.io/badge/README-🇷🇺%20Русский-0057a8?style=for-the-badge)](./README.ru.md)
 &nbsp;
@@ -48,10 +60,6 @@
 <div align="center">
 
 ## At a Glance
-
-</div>
-
-<div align="center">
 
 |   |   |   |
 |:---:|:---:|:---:|
@@ -169,7 +177,7 @@ Detects unique / previously unseen images using **6-signal perceptual fingerprin
 ✔  6 signals: SHA-256 · pHash×5 · dHash
             · aHash · edge-pHash · Histogram
 ✔  Rotation invariant: 0° 90° 180° 270° + flip
-✔  Persistent hash database survives Result cleanup
+✔  Persistent hash database survives cleanup
 ✔  Auto-moves Anti-Public images to Result folder
 ```
 
@@ -198,21 +206,14 @@ Detects unique / previously unseen images using **6-signal perceptual fingerprin
 
 ```
   ┌──────────────────────────────────────────────────────────────────────┐
-  │                      WORKFLOW                                        │
-  │                                                                      │
   │  RUN 1 — BUILD MODE                                                  │
-  │  ┌────────────────────────────────────────────────────────────┐      │
-  │  │  Feed your "known / public" library                        │      │
-  │  │  → Only hash fingerprints saved  (~1 KB per image)         │      │
-  │  │  → Original photos untouched. Nothing is moved.            │      │
-  │  └────────────────────────────────────────────────────────────┘      │
-  │                                                                      │
+  │  ▸ Feed your "known / public" library                                │
+  │  ▸ Only hash fingerprints saved  (~1 KB per image)                   │
+  │  ▸ Original photos untouched. Nothing is moved.                      │
+  ├──────────────────────────────────────────────────────────────────────┤
   │  RUN 2+ — DETECTION MODE                                             │
-  │  ┌──────────────────────────┐   ┌──────────────────────────┐        │
-  │  │  Image found in DB       │   │  Image NOT in DB          │        │
-  │  │  → KNOWN (public)        │   │  → ANTI-PUBLIC (unique)   │        │
-  │  │  → Stays in place        │   │  → Moved to Result\       │        │
-  │  └──────────────────────────┘   └──────────────────────────┘        │
+  │  ▸ KNOWN (found in DB)    → stays in place                           │
+  │  ▸ ANTI-PUBLIC (not in DB) → moved to Result\ folder                 │
   └──────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -274,9 +275,7 @@ Priority support
 
 > 💬 **To purchase a license or ask any question:**
 >
-> ### [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
->
-> *(Replace `YOUR_TELEGRAM_HERE` with your actual username)*
+> ### 📩 [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
 
 </div>
 
@@ -284,13 +283,13 @@ Priority support
 
 ## 🚀 Quick Start
 
-**1. Download** the latest release from the [Releases](../../releases) tab
+**1.** Download the latest release from the [Releases](../../releases) tab
 
-**2. Extract** to any folder — portable, no installation required
+**2.** Extract to any folder — portable, no installation required
 
-**3. Run** `Email Grabber.exe`
+**3.** Run `Email Grabber.exe`
 
-**4. Enter** your license key on first launch
+**4.** Enter your license key on first launch
 
 <br/>
 
@@ -313,7 +312,6 @@ proxies.txt         — proxy list              (optional — works without prox
 ```
 user@gmail.com:password
 user@outlook.com:password
-user@yahoo.com:password
 ```
 
 </details>
@@ -323,27 +321,26 @@ user@yahoo.com:password
 <br/>
 
 ```ini
-# Format 1 — tag-based (recommended)
+# Tag-based
 [DOMAINS]gmail.com[/DOMAINS][SERVER]imap.gmail.com[/SERVER][PORT]993[/PORT][SSL]true[/SSL]
 
-# Format 2 — INI key=value
+# INI key=value
 outlook.com = imap-mail.outlook.com:993
 
-# Format 3 — whitespace-separated
+# Whitespace-separated
 yahoo.com   imap.mail.yahoo.com   993
 ```
 
 </details>
 
 <details>
-<summary><b>proxies.txt</b> — optional (works without proxies)</summary>
+<summary><b>proxies.txt</b> — optional</summary>
 <br/>
 
 ```
 192.168.1.1:1080
 user:pass@192.168.1.2:1080
 socks5://user:pass@proxy.example.com:1080
-http://user:pass@proxy.example.com:8080
 ```
 
 </details>
@@ -355,23 +352,19 @@ http://user:pass@proxy.example.com:8080
 ```
 app-folder/
 │
-├── AntiPublic/                               ← permanent hash DB (never cleared)
-│   ├── phash_database.txt                    ← ~1 KB per image, no photos stored
-│   └── AntiPublic_features.txt               ← full visual feature log
+├── AntiPublic/                        ← permanent hash DB (never cleared)
+│   ├── phash_database.txt             ← ~1 KB per image, no photos stored
+│   └── AntiPublic_features.txt
 │
 └── Result/
-    ├── Valid_Email.txt                        ← IMAP checker valid credentials
+    ├── Valid_Email.txt
     ├── Hotmail_DD_MM_YYYY_HH_MM_SS/
     │   ├── emails/
     │   └── attachments/
     ├── IMAP_DD_MM_YYYY_HH_MM_SS/
-    │   └── account@domain/
     ├── OneDrive_DD_MM_YYYY_HH_MM_SS/
     ├── PhotoSeed&PK_DD_MM_YYYY_HH_MM_SS/
-    │   ├── Seed.txt
-    │   ├── Hex.txt
-    │   ├── Evm.txt
-    │   └── Wif.txt
+    │   ├── Seed.txt · Hex.txt · Evm.txt · Wif.txt
     └── Anti-Public_DD_MM_YYYY_HH_MM_SS/
 ```
 
@@ -381,12 +374,12 @@ app-folder/
 
 | Requirement | Details |
 |:---|:---|
-| **Operating System** | Windows 10 (build 22621+) or Windows 11 |
-| **Runtime** | .NET 9 — bundled inside the release binary |
-| **CPU** | x64 architecture · 4+ cores recommended |
-| **RAM** | 4 GB minimum · 8 GB recommended |
-| **Proxy** | Optional — direct connection fully supported |
-| **OCR** | Windows OCR language packs (Settings → Time & Language → Language) |
+| **OS** | Windows 10 (build 22621+) or Windows 11 |
+| **Runtime** | .NET 9 — bundled inside the release |
+| **CPU** | x64 · 4+ cores recommended |
+| **RAM** | 4 GB min · 8 GB recommended |
+| **Proxy** | Optional — direct connection supported |
+| **OCR** | Windows OCR packs via Settings → Language |
 
 ---
 
@@ -394,15 +387,7 @@ app-folder/
 
 <div align="center">
 
-| Layer | Technology |
-|:---:|:---|
-| **Language** | C# 13 on .NET 9 |
-| **UI** | WPF + ModernWpf — native Windows 11 design language |
-| **IMAP** | MailKit — industry-standard mail library |
-| **Image processing** | Magick.NET — ImageMagick bindings for .NET |
-| **OCR** | Windows.Media.Ocr — on-device, zero latency, no API key |
-| **Crypto** | NBitcoin — BIP-39 validation and key format support |
-| **Serialization** | System.Text.Json |
+`C# 13` · `.NET 9` · `WPF + ModernWpf` · `MailKit` · `Magick.NET` · `Windows.Media.Ocr` · `NBitcoin` · `System.Text.Json`
 
 </div>
 
@@ -410,10 +395,9 @@ app-folder/
 
 ## ⚖️ Legal Notice
 
-> This software is intended exclusively for **authorized** security research, penetration testing, corporate IT audits, and lawful OSINT operations.
->
-> You must hold explicit written permission before using this tool against any system you do not own or administer.
-> Unauthorized use may constitute a criminal offense under applicable law. The authors and distributors accept no liability for misuse.
+> This software is intended exclusively for **authorized** security research, penetration testing, corporate IT audits and lawful OSINT operations.  
+> You must hold explicit written permission before using this tool against any system you do not own.  
+> The authors accept no liability for misuse.
 
 ---
 
@@ -421,10 +405,11 @@ app-folder/
 
 **Questions? Ready to purchase?**
 
-## [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
+### 📩 [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
 
 <br/>
 
-<img src="./assets/banner.svg" width="100%" style="transform:scaleY(-1);opacity:0.4"/>
+*Built for security professionals · Windows 10 / 11 · .NET 9*
 
 </div>
+
