@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=Email%20Grabber%20Pro&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Enterprise%20Email%20%26%20Security%20Analysis%20Suite&descSize=17&descAlignY=60&descColor=ddddff&animation=fadeIn" width="100%"/>
+<img src="./assets/banner-ru.svg" width="100%"/>
 
 </div>
 
 <div align="center">
 
-[![RU](https://img.shields.io/badge/README-🇷🇺%20Русский-0057a8?style=for-the-badge)](./README.ru.md)
+[![EN](https://img.shields.io/badge/README-🇬🇧%20English-0057a8?style=for-the-badge)](./README.md)
 &nbsp;
-[![Telegram](https://img.shields.io/badge/Contact-@YOUR__TELEGRAM__HERE-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/YOUR_TELEGRAM_HERE)
+[![Telegram](https://img.shields.io/badge/Контакт-@YOUR__TELEGRAM__HERE-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/YOUR_TELEGRAM_HERE)
 
 </div>
 
@@ -16,17 +16,17 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white"/>
+<img src="https://img.shields.io/badge/Платформа-Windows%2010%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white"/>
 &nbsp;
 <img src="https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Language-C%23%2013-239120?style=flat-square&logo=csharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/Язык-C%23%2013-239120?style=flat-square&logo=csharp&logoColor=white"/>
 &nbsp;
-<img src="https://img.shields.io/badge/License-Commercial-DC143C?style=flat-square"/>
+<img src="https://img.shields.io/badge/Лицензия-Коммерческая-DC143C?style=flat-square"/>
 &nbsp;
-<img src="https://img.shields.io/badge/IMAP%20Database-3%2C000%2C000%2B%20servers-f57c00?style=flat-square"/>
+<img src="https://img.shields.io/badge/IMAP%20серверов-3%20000%20000%2B-f57c00?style=flat-square"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Status-Active%20Development-00C851?style=flat-square"/>
+<img src="https://img.shields.io/badge/Статус-Активная%20разработка-00C851?style=flat-square"/>
 
 </div>
 
@@ -36,8 +36,8 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
-║  6 professional modules  ·  3M+ IMAP servers  ·  No proxy required     ║
-║  On-device OCR  ·  Crypto forensics  ·  Anti-Public image engine        ║
+║  6 профессиональных модулей  ·  3M+ IMAP серверов  ·  Без прокси       ║
+║  Офлайн OCR  ·  Крипто-форензика  ·  Движок Anti-Public изображений    ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -47,7 +47,7 @@
 
 <div align="center">
 
-## At a Glance
+## Кратко о возможностях
 
 </div>
 
@@ -55,16 +55,16 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| 📡 **3,000,000+** | 🔑 **4 key types** | 🌐 **Proxy-free** |
-| Built-in IMAP server database | Seed · Hex · EVM · WIF | Works on direct connection |
-| 📷 **On-device OCR** | 👁️ **~1 KB per photo** | ⚡ **3,000 threads** |
-| No API key, fully offline | Anti-Public stores only hashes | Max parallelism |
+| 📡 **3 000 000+** | 🔑 **4 типа ключей** | 🌐 **Без прокси** |
+| Встроенная база IMAP-серверов | Seed · Hex · EVM · WIF | Прямое подключение |
+| 📷 **Офлайн OCR** | 👁️ **~1 КБ на фото** | ⚡ **3 000 потоков** |
+| Без API-ключа, без интернета | Антипаблик хранит только хэши | Максимальный параллелизм |
 
 </div>
 
 ---
 
-## 📦 Modules
+## 📦 Модули
 
 <table>
 <tr>
@@ -72,16 +72,16 @@
 
 ### 📬 IMAP Email Checker
 
-Validates email credentials against IMAP servers at massive scale.
+Массовая проверка учётных данных через IMAP.
 
 ```
-✔  Works without proxies (direct connection)
-✔  3,000,000+ built-in server mappings
-✔  Auto-resolves server from email domain
-✔  Socks5 / HTTP proxy with per-account rotation
-✔  Re-check queue for failed accounts
-✔  Up to 3,000 parallel threads
-✔  Real-time streaming → Valid_Email.txt
+✔  Работает без прокси (прямое подключение)
+✔  3 000 000+ встроенных серверных маппингов
+✔  Автоопределение сервера по домену
+✔  Прокси Socks5 / HTTP с ротацией по аккаунту
+✔  Очередь повторных попыток при ошибках
+✔  До 3 000 параллельных потоков
+✔  Вывод в реальном времени → Valid_Email.txt
 ```
 
 </td>
@@ -89,16 +89,16 @@ Validates email credentials against IMAP servers at massive scale.
 
 ### 🔵 Hotmail / Outlook Checker
 
-Microsoft account audit via Web API.
+Аудит аккаунтов Microsoft через Web API.
 
 ```
-✔  Inbox · Sent · Drafts simultaneous download
-✔  Attachment extraction (size + extension filters)
-✔  Built-in BIP-39 seed phrase scanner
-✔  Built-in private key scanner (Hex · EVM · WIF)
-✔  Download emails by keyword (sender / subject)
-✔  Date-range filters
-✔  Up to 3,000 sessions + download thread pool
+✔  Загрузка из Входящих · Отправленных · Черновиков
+✔  Извлечение вложений (фильтр по размеру и расширению)
+✔  Встроенный сканер BIP-39 сид-фраз
+✔  Встроенный сканер приватных ключей (Hex · EVM · WIF)
+✔  Скачивание писем по ключевым словам (тема / отправитель)
+✔  Фильтры по дате
+✔  До 3 000 сессий + отдельный пул загрузок
 ```
 
 </td>
@@ -108,15 +108,15 @@ Microsoft account audit via Web API.
 
 ### 📥 IMAP Mix Email
 
-Deep forensic harvesting from any IMAP mailbox.
+Глубокая форензическая выгрузка из любого IMAP-ящика.
 
 ```
-✔  Inbox · Sent · Deleted Items in parallel
-✔  Extension whitelist (pdf jpg png zip xlsx…)
-✔  Seed phrase / private key detection
-✔  Download emails by keyword
-✔  Sender / subject / date-range filters
-✔  Works without proxies
+✔  Входящие · Отправленные · Удалённые параллельно
+✔  Белый список расширений (pdf jpg png zip xlsx…)
+✔  Обнаружение сид-фраз / ключей в вложениях
+✔  Скачивание писем по ключевым словам
+✔  Фильтры по отправителю / теме / дате
+✔  Работает без прокси
 ```
 
 </td>
@@ -124,14 +124,14 @@ Deep forensic harvesting from any IMAP mailbox.
 
 ### ☁️ OneDrive Auditor
 
-Cloud storage enumeration via Microsoft Live API.
+Перечисление облака и загрузка через Microsoft Live API.
 
 ```
-✔  4 sub-modes: extension / keyword / both / API
-✔  File size cap to skip large irrelevant files
-✔  Seed phrase / private key scanner on results
-✔  Up to 45 parallel download threads
-✔  Works without proxies
+✔  4 режима: расширение / ключевые слова / оба / API
+✔  Ограничение размера файла
+✔  Сканер сид-фраз / ключей на скачанном контенте
+✔  До 45 потоков загрузки
+✔  Работает без прокси
 ```
 
 </td>
@@ -141,18 +141,18 @@ Cloud storage enumeration via Microsoft Live API.
 
 ### 📷 Photo Seed & Key Scanner
 
-Extracts cryptocurrency credentials from images using **on-device OCR**.
+Извлечение крипто-учётных данных из изображений через **встроенный OCR**.
 
 ```
-✔  No internet · no API key · fully offline
+✔  Без интернета · без API-ключа · полностью офлайн
 ✔  jpg png heic heif webp bmp tiff gif avif
-✔  OCR: EN FR ES IT PT JP KO ZH CS + more
-✔  BIP-39 seed phrases (12–24 words, checksum)
-✔  Hex private keys (64-char)
-✔  EVM keys (0x-prefixed)
-✔  WIF keys (5 / K / L prefix)
-✔  Up to 64 parallel workers
-✔  Real-time: Seed.txt Hex.txt Evm.txt Wif.txt
+✔  OCR: RU EN FR ES IT PT JP KO ZH CS
+✔  BIP-39 сид-фразы (12–24 слова, чексумма)
+✔  Hex приватные ключи (64 символа)
+✔  EVM ключи (префикс 0x)
+✔  WIF ключи (префикс 5 / K / L)
+✔  До 64 параллельных воркеров
+✔  Реальное время: Seed.txt Hex.txt Evm.txt Wif.txt
 ```
 
 </td>
@@ -160,17 +160,17 @@ Extracts cryptocurrency credentials from images using **on-device OCR**.
 
 ### 👁️ Anti-Public Image Engine
 
-Detects unique / previously unseen images using **6-signal perceptual fingerprinting**.
+Обнаруживает уникальные изображения с помощью **6-сигнального отпечатка**.
 
 ```
-✔  Works without proxies or internet
-✔  Stores only hash fingerprints (~1 KB/image)
-✔  Original photos are NEVER stored on disk
-✔  6 signals: SHA-256 · pHash×5 · dHash
-            · aHash · edge-pHash · Histogram
-✔  Rotation invariant: 0° 90° 180° 270° + flip
-✔  Persistent hash database survives Result cleanup
-✔  Auto-moves Anti-Public images to Result folder
+✔  Работает без прокси и без интернета
+✔  Хранятся только хэш-отпечатки (~1 КБ на фото)
+✔  Оригинальные фото НИКОГДА не хранятся на диске
+✔  6 сигналов: SHA-256 · pHash×5 · dHash
+             · aHash · edge-pHash · Гистограмма
+✔  Инвариантен к повороту: 0° 90° 180° 270° + зеркало
+✔  Постоянная хэш-база не удаляется с Result
+✔  Автоматическое перемещение Anti-Public фото
 ```
 
 </td>
@@ -179,18 +179,18 @@ Detects unique / previously unseen images using **6-signal perceptual fingerprin
 
 ---
 
-## 👁️ Anti-Public — How It Works
+## 👁️ Антипаблик — как работает
 
 <div align="center">
 
-| Signal | What It Does | Resistant To |
+| Сигнал | Что делает | Устойчив к |
 |:---:|:---|:---|
-| **SHA-256** | Exact byte-level file match | — |
-| **pHash ×5** | DCT perceptual hash in 5 orientations | Resize · JPEG · format conversion · rotation · flip |
-| **dHash** | Horizontal gradient comparison | Brightness · contrast adjustments |
-| **aHash** | Global average luminance hash | Overall structural changes |
-| **edge-pHash** | pHash applied to Canny edge map | Colour grading · heavy filters · toning |
-| **Histogram** | Bhattacharyya colour distribution | All spatial transformations |
+| **SHA-256** | Точное побайтовое совпадение | — |
+| **pHash ×5** | DCT перцептивный хэш в 5 ориентациях | Resize · JPEG · конвертация · поворот · зеркало |
+| **dHash** | Горизонтальное градиентное сравнение | Яркость · контраст |
+| **aHash** | Глобальный средний хэш яркости | Структурные изменения |
+| **edge-pHash** | pHash по карте контуров Canny | Цветовая обработка · тонирование |
+| **Гистограмма** | Коэффициент Бхаттачарьи | Все пространственные преобразования |
 
 </div>
 
@@ -198,37 +198,37 @@ Detects unique / previously unseen images using **6-signal perceptual fingerprin
 
 ```
   ┌──────────────────────────────────────────────────────────────────────┐
-  │                      WORKFLOW                                        │
+  │                        СХЕМА РАБОТЫ                                  │
   │                                                                      │
-  │  RUN 1 — BUILD MODE                                                  │
+  │  ПРОГОН 1 — РЕЖИМ ПОСТРОЕНИЯ                                         │
   │  ┌────────────────────────────────────────────────────────────┐      │
-  │  │  Feed your "known / public" library                        │      │
-  │  │  → Only hash fingerprints saved  (~1 KB per image)         │      │
-  │  │  → Original photos untouched. Nothing is moved.            │      │
+  │  │  Загружаете «публичную» библиотеку фотографий              │      │
+  │  │  → Сохраняются только хэш-отпечатки  (~1 КБ на фото)      │      │
+  │  │  → Оригиналы не тронуты. Ничего не перемещается.           │      │
   │  └────────────────────────────────────────────────────────────┘      │
   │                                                                      │
-  │  RUN 2+ — DETECTION MODE                                             │
+  │  ПРОГОН 2+ — РЕЖИМ ОБНАРУЖЕНИЯ                                       │
   │  ┌──────────────────────────┐   ┌──────────────────────────┐        │
-  │  │  Image found in DB       │   │  Image NOT in DB          │        │
-  │  │  → KNOWN (public)        │   │  → ANTI-PUBLIC (unique)   │        │
-  │  │  → Stays in place        │   │  → Moved to Result\       │        │
+  │  │  Фото найдено в базе     │   │  Фото НЕ найдено в базе  │        │
+  │  │  → ИЗВЕСТНОЕ (публичное) │   │  → ANTI-PUBLIC (уникальн)│        │
+  │  │  → Остаётся на месте     │   │  → Перемещается в Result\ │        │
   │  └──────────────────────────┘   └──────────────────────────┘        │
   └──────────────────────────────────────────────────────────────────────┘
 ```
 
-**Detection rules** — first match wins:
+**Правила обнаружения** — первое совпадение побеждает:
 
 ```
-  Rule 1  SHA-256 exact file match
-  Rule 2  best pHash ≤ 8     across all 5 rotation/flip variants
-  Rule 3  pHash ≤ 14   AND   dHash ≤ 10   AND   aHash ≤ 10
-  Rule 4  edge-pHash ≤ 6    AND   histogram BC ≥ 0.95
-  Rule 5  dHash ≤ 5    AND   aHash ≤ 5    AND   histogram BC ≥ 0.97
+  Правило 1  SHA-256 точное совпадение файла
+  Правило 2  лучший pHash ≤ 8     по всем 5 вариантам ориентации
+  Правило 3  pHash ≤ 14   И   dHash ≤ 10   И   aHash ≤ 10
+  Правило 4  edge-pHash ≤ 6    И   гистограмма BC ≥ 0.95
+  Правило 5  dHash ≤ 5    И   aHash ≤ 5    И   гистограмма BC ≥ 0.97
 ```
 
 ---
 
-## 💳 Pricing
+## 💳 Тарифы
 
 <div align="center">
 
@@ -236,35 +236,35 @@ Detects unique / previously unseen images using **6-signal perceptual fingerprin
 <tr>
 <td align="center" width="33%">
 
-### 🗓️ Weekly
+### 🗓️ Неделя
 # $50
-**7 days**
+**7 дней**
 
-All 6 modules  
-Full functionality  
-Email support
+Все 6 модулей  
+Полный функционал  
+Поддержка по email
 
 </td>
 <td align="center" width="33%">
 
-### 📅 Monthly
+### 📅 Месяц
 # $80
-**30 days**
+**30 дней**
 
-All 6 modules  
-Full functionality  
-Priority support
+Все 6 модулей  
+Полный функционал  
+Приоритетная поддержка
 
 </td>
 <td align="center" width="33%">
 
-### ♾️ Lifetime
+### ♾️ Навсегда
 # $200
-**Forever**
+**Бессрочно**
 
-All 6 modules  
-All future updates  
-Priority support
+Все 6 модулей  
+Все будущие обновления  
+Приоритетная поддержка
 
 </td>
 </tr>
@@ -272,71 +272,71 @@ Priority support
 
 <br/>
 
-> 💬 **To purchase a license or ask any question:**
+> 💬 **Для покупки лицензии или любых вопросов:**
 >
 > ### [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
 >
-> *(Replace `YOUR_TELEGRAM_HERE` with your actual username)*
+> *(Замените `YOUR_TELEGRAM_HERE` на ваш реальный username)*
 
 </div>
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Быстрый старт
 
-**1. Download** the latest release from the [Releases](../../releases) tab
+**1. Скачайте** последний релиз во вкладке [Releases](../../releases)
 
-**2. Extract** to any folder — portable, no installation required
+**2. Распакуйте** в любую папку — портативный, установка не нужна
 
-**3. Run** `Email Grabber.exe`
+**3. Запустите** `Email Grabber.exe`
 
-**4. Enter** your license key on first launch
+**4. Введите** лицензионный ключ при первом запуске
 
 <br/>
 
-Optional files next to the executable:
+Опциональные файлы рядом с исполняемым:
 
 ```
-imap_servers.txt    — custom server overrides  (3M+ built-in, usually not needed)
-imap_accounts.txt   — email:password list
-proxies.txt         — proxy list              (optional — works without proxies)
+imap_servers.txt    — переопределить серверы  (встроено 3M+, обычно не нужно)
+imap_accounts.txt   — список email:пароль
+proxies.txt         — список прокси           (необязательно — работает без них)
 ```
 
 ---
 
-## 📄 Input File Formats
+## 📄 Форматы входных файлов
 
 <details>
 <summary><b>imap_accounts.txt</b></summary>
 <br/>
 
 ```
-user@gmail.com:password
-user@outlook.com:password
-user@yahoo.com:password
+user@gmail.com:пароль
+user@outlook.com:пароль
+user@yahoo.com:пароль
 ```
 
 </details>
 
 <details>
-<summary><b>imap_servers.txt</b> — three formats supported</summary>
+<summary><b>imap_servers.txt</b> — три формата (опционально)</summary>
 <br/>
 
 ```ini
-# Format 1 — tag-based (recommended)
+# Формат 1 — тег-формат (рекомендуется)
 [DOMAINS]gmail.com[/DOMAINS][SERVER]imap.gmail.com[/SERVER][PORT]993[/PORT][SSL]true[/SSL]
 
-# Format 2 — INI key=value
+# Формат 2 — INI key=value
 outlook.com = imap-mail.outlook.com:993
 
-# Format 3 — whitespace-separated
+# Формат 3 — разделение пробелом
 yahoo.com   imap.mail.yahoo.com   993
 ```
 
 </details>
 
 <details>
-<summary><b>proxies.txt</b> — optional (works without proxies)</summary>
+<summary><b>proxies.txt</b> — необязательно (работает без прокси)</summary>
 <br/>
 
 ```
@@ -350,81 +350,82 @@ http://user:pass@proxy.example.com:8080
 
 ---
 
-## 📁 Output Structure
+## 📁 Структура результатов
 
 ```
-app-folder/
+папка-программы/
 │
-├── AntiPublic/                               ← permanent hash DB (never cleared)
-│   ├── phash_database.txt                    ← ~1 KB per image, no photos stored
-│   └── AntiPublic_features.txt               ← full visual feature log
+├── AntiPublic/                               ← постоянная хэш-база (не очищается)
+│   ├── phash_database.txt                    ← ~1 КБ на фото, сами фото не хранятся
+│   └── AntiPublic_features.txt               ← полный лог визуальных признаков
 │
 └── Result/
-    ├── Valid_Email.txt                        ← IMAP checker valid credentials
-    ├── Hotmail_DD_MM_YYYY_HH_MM_SS/
+    ├── Valid_Email.txt                        ← IMAP checker: валидные учётные данные
+    ├── Hotmail_ДД_ММ_ГГГГ_ЧЧ_ММ_СС/
     │   ├── emails/
     │   └── attachments/
-    ├── IMAP_DD_MM_YYYY_HH_MM_SS/
+    ├── IMAP_ДД_ММ_ГГГГ_ЧЧ_ММ_СС/
     │   └── account@domain/
-    ├── OneDrive_DD_MM_YYYY_HH_MM_SS/
-    ├── PhotoSeed&PK_DD_MM_YYYY_HH_MM_SS/
+    ├── OneDrive_ДД_ММ_ГГГГ_ЧЧ_ММ_СС/
+    ├── PhotoSeed&PK_ДД_ММ_ГГГГ_ЧЧ_ММ_СС/
     │   ├── Seed.txt
     │   ├── Hex.txt
     │   ├── Evm.txt
     │   └── Wif.txt
-    └── Anti-Public_DD_MM_YYYY_HH_MM_SS/
+    └── Anti-Public_ДД_ММ_ГГГГ_ЧЧ_ММ_СС/
 ```
 
 ---
 
-## 💻 System Requirements
+## 💻 Системные требования
 
-| Requirement | Details |
+| Параметр | Описание |
 |:---|:---|
-| **Operating System** | Windows 10 (build 22621+) or Windows 11 |
-| **Runtime** | .NET 9 — bundled inside the release binary |
-| **CPU** | x64 architecture · 4+ cores recommended |
-| **RAM** | 4 GB minimum · 8 GB recommended |
-| **Proxy** | Optional — direct connection fully supported |
-| **OCR** | Windows OCR language packs (Settings → Time & Language → Language) |
+| **Операционная система** | Windows 10 (сборка 22621+) или Windows 11 |
+| **Среда выполнения** | .NET 9 — включён в релизную сборку |
+| **Процессор** | x64 · рекомендуется 4+ ядра |
+| **ОЗУ** | мин. 4 ГБ · рекомендуется 8 ГБ |
+| **Прокси** | Необязательно — прямое подключение полностью поддерживается |
+| **OCR** | Языковые пакеты Windows (Параметры → Время и язык → Язык) |
 
 ---
 
-## 🔧 Technology Stack
+## 🔧 Технологический стек
 
 <div align="center">
 
-| Layer | Technology |
+| Уровень | Технология |
 |:---:|:---|
-| **Language** | C# 13 on .NET 9 |
-| **UI** | WPF + ModernWpf — native Windows 11 design language |
-| **IMAP** | MailKit — industry-standard mail library |
-| **Image processing** | Magick.NET — ImageMagick bindings for .NET |
-| **OCR** | Windows.Media.Ocr — on-device, zero latency, no API key |
-| **Crypto** | NBitcoin — BIP-39 validation and key format support |
-| **Serialization** | System.Text.Json |
+| **Язык** | C# 13 на .NET 9 |
+| **UI** | WPF + ModernWpf — нативный дизайн Windows 11 |
+| **IMAP** | MailKit — индустриальный стандарт для работы с почтой |
+| **Обработка изображений** | Magick.NET — биндинги ImageMagick для .NET |
+| **OCR** | Windows.Media.Ocr — на устройстве, без задержек, без API |
+| **Криптография** | NBitcoin — валидация BIP-39 и форматов ключей |
+| **Сериализация** | System.Text.Json |
 
 </div>
 
 ---
 
-## ⚖️ Legal Notice
+## ⚖️ Правовая оговорка
 
-> This software is intended exclusively for **authorized** security research, penetration testing, corporate IT audits, and lawful OSINT operations.
+> Программа предназначена исключительно для **авторизованных** исследований безопасности, тестирования на проникновение, корпоративных IT-аудитов и законных OSINT-операций.
 >
-> You must hold explicit written permission before using this tool against any system you do not own or administer.
-> Unauthorized use may constitute a criminal offense under applicable law. The authors and distributors accept no liability for misuse.
+> Вы обязаны иметь явное письменное разрешение перед использованием этого инструмента на системах, которыми не владеете.
+> Несанкционированное использование может являться уголовным преступлением. Авторы и дистрибьюторы не несут ответственности за неправомерное использование.
 
 ---
 
 <div align="center">
 
-**Questions? Ready to purchase?**
+**Вопросы? Готовы купить?**
 
-## [`@cyberpaladin`](https://t.me/cyberpaladin)
+## [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" width="100%"/>
+<img src="./assets/banner-ru.svg" width="100%" style="transform:scaleY(-1);opacity:0.4"/>
 
 </div>
+
