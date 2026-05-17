@@ -230,7 +230,7 @@ Priority support
 
 <br/>
 
-> ### 💬 To purchase or ask a question → [`@YOUR_TELEGRAM_HERE`](https://t.me/YOUR_TELEGRAM_HERE)
+> ### 💬 To purchase or ask a question → [`@cyberpaladin`](https://t.me/cyberpaladin)
 
 </div>
 
