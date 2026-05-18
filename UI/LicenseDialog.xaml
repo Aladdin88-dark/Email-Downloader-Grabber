@@ -1,0 +1,8 @@
+<Window x:Class="Auto_Uploader.LicenseDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="License" Height="100" Width="300"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Visibility="Collapsed">
+    <Grid />
+</Window>

@@ -1,0 +1,73 @@
+# ─── Build output ───────────────────────────────────────────────
+BuildOutput/
+bin/
+obj/
+
+# ─── Obfuscator ──────────────────────────────────────────────────
+ConfuserEx/
+*.confuserex
+obfusc_build.log
+
+# ─── Python & virtual environment ───────────────────────────────
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.py
+
+# ─── Personal & runtime settings ────────────────────────────────
+last_settings.json
+
+# ─── Large data files (>100MB, upload separately) ───────────────
+data/imap_servers.txt
+
+# ─── Debug traces ───────────────────────────────────────────────
+trace_extract_aol/
+trace_extract_aol2/
+
+# ─── Sensitive source files (never upload originals) ────────────
+Processors/imap.cs
+hotmail_v1.5.py
+Onedrive_V4.6.py
+gui_main.py
+gui_main.spec
+pop3_servers_from_db.txt
+publicsuffix.dat
+pyvenv.cfg
+
+# ─── Build scripts with sensitive info ──────────────────────────
+build_protected_single_exe_to_BuildOutput.bat
+package_native_wrapper.bat
+
+# ─── Decoy files (rename before upload, then delete originals) ──
+Processors/checker2.cs
+Processors/HotmailProcessor2.cs
+
+# ─── Archives & executables ─────────────────────────────────────
+*.zip
+*.exe
+*.dll
+
+# ─── IDE ─────────────────────────────────────────────────────────
+.vscode/
+.vs/
+*.user
+
+# ─── Additional folders not for upload ──────────────────────────
+NativeWrapper/
+Docs/
+tools/
+dictionaries/
+trace_extract/
+bin/
+obj/
+
+# ─── Misc files ──────────────────────────────────────────────────
+lent.png
+.sixth
+*.confuserex
+
+# ─── OS ──────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini

@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.22621.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>3.0.0</Version>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <FileVersion>3.0.0.0</FileVersion>
+    <InformationalVersion>3.0.0</InformationalVersion>
+    <AssemblyName>Email Grabber</AssemblyName>
+    <AssemblyTitle>Email Grabber</AssemblyTitle>
+    <Product>Email Grabber</Product>
+    <ApplicationIcon>myico.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="myico.ico" />
+  </ItemGroup>
+
+  <!-- Decoy files for GitHub — excluded from compilation -->
+  <ItemGroup>
+    <Compile Remove="Processors\checker2.cs" />
+    <Compile Remove="Processors\HotmailProcessor2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <Content Include="data\imap_servers.txt" Condition="Exists('data\imap_servers.txt')" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" Link="imap_servers.txt" />
+    <Content Include="dictionaries\**\*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="publicsuffix.dat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.69" />
+    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.13.0" />
+    <PackageReference Include="MailKit" Version="4.14.0" />
+    <PackageReference Include="HttpToSocks5Proxy" Version="1.0.0" />
+    <PackageReference Include="ModernWpfUI" Version="0.9.7-preview.2" />
+    <PackageReference Include="NBitcoin" Version="7.0.33" />
+    <PackageReference Include="NPOI" Version="2.7.2" />
+    <PackageReference Include="PdfPig" Version="0.1.9" />
+    <PackageReference Include="PdfSharp" Version="6.2.0" />
+    <PackageReference Include="RtfPipe" Version="2.0.0" />
+    <PackageReference Include="System.Management" Version="10.0.1" />
+  </ItemGroup>
+</Project>
