@@ -1,14 +1,42 @@
 <div align="center">
 
-<h1>📧 Email Grabber Pro</h1>
-<h3>Enterprise Email &amp; Security Analysis Suite</h3>
+<img src="Assets/Marketing/banner.png" width="900" />
+
+<br/>
+
+<!-- Title -->
+<a href="https://github.com/Aladdin88-dark/Email-Downloader-Grabber">
+  <img src="https://img.shields.io/badge/-%E2%80%8B-000000?style=for-the-badge" height="0" width="0" />
+</a>
+
+<h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=A855F7&center=true&vCenter=true&width=600&height=60&lines=Email+Grabber+Pro" alt="Email Grabber Pro" />
+</h1>
 
 <p>
-  <a href="./README.ru.md"><img src="https://img.shields.io/badge/README-🇷🇺%20Русский-1a56b0?style=for-the-badge" /></a>
-  &nbsp;
-  <a href="https://t.me/cyberpaladin"><img src="https://img.shields.io/badge/💬%20Buy%20%2F%20Contact-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Enterprise%20Email%20%26%20Security%20Analysis%20Suite-6d28d9?style=flat&labelColor=0a0a0f&color=6d28d9" />
 </p>
 
+<br/>
+
+<!-- Action Buttons -->
+<p>
+  <a href="https://github.com/Aladdin88-dark/Email-Downloader-Grabber/releases/latest">
+    <img src="https://img.shields.io/badge/⬇%20Download%20Demo-Latest%20Release-6d28d9?style=for-the-badge&labelColor=1a0a2e" />
+  </a>
+  &nbsp;
+  <a href="https://t.me/cyberpaladin">
+    <img src="https://img.shields.io/badge/💬%20Buy%20Full%20Version-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0a1628" />
+  </a>
+  &nbsp;
+  <a href="./README.ru.md">
+    <img src="https://img.shields.io/badge/🇷🇺%20Читать%20на-Русском-1a56b0?style=for-the-badge&labelColor=0a1628" />
+  </a>
+</p>
+
+<br/>
+
+<!-- Tech Badges -->
 <p>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
@@ -19,9 +47,13 @@
   <img src="https://img.shields.io/github/v/release/Aladdin88-dark/Email-Downloader-Grabber?style=flat-square&label=Release&color=00C851" />
 </p>
 
-<p><i>High-performance Windows desktop suite for IMAP validation, email forensics,<br/>cloud storage audit, crypto key recovery and perceptual image fingerprinting.</i></p>
+<br/>
 
-<img src="Assets/Marketing/banner.png" width="850" />
+<p>
+  <i>High-performance Windows desktop suite for IMAP validation, email forensics,<br/>cloud storage audit, crypto key recovery and perceptual image fingerprinting.</i>
+</p>
+
+<br/>
 
 </div>
 
