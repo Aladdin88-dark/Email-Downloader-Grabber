@@ -13,12 +13,15 @@
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
   <img src="https://img.shields.io/badge/C%23-13.0-239120?style=flat-square&logo=csharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-Commercial-DC143C?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-GPL%20v3-DC143C?style=flat-square" />
   <img src="https://img.shields.io/badge/IMAP%20Servers-3%2C000%2C000%2B-f57c00?style=flat-square" />
   <img src="https://img.shields.io/badge/Status-Active-00C851?style=flat-square" />
+  <img src="https://img.shields.io/github/v/release/Aladdin88-dark/Email-Downloader-Grabber?style=flat-square&label=Release&color=00C851" />
 </p>
 
 <p><i>High-performance Windows desktop suite for IMAP validation, email forensics,<br/>cloud storage audit, crypto key recovery and perceptual image fingerprinting.</i></p>
+
+<img src="Assets/Marketing/banner.png" width="850" />
 
 </div>
 
@@ -236,9 +239,43 @@ Priority support
 
 ---
 
+## 🧪 Demo Version
+
+A **free demo** is available in this repository with limited functionality:
+
+| Feature | Demo | Professional |
+|:---|:---:|:---:|
+| IMAP valid check (Mode M) | ✅ up to 50 threads | ✅ up to 3,000 threads |
+| Hotmail valid check (Mode H) | ✅ up to 50 threads | ✅ up to 3,000 threads |
+| Email & attachment download | ❌ | ✅ |
+| Seed phrase / key scanner | ❌ | ✅ |
+| OneDrive, Anti-Public, Photo OCR | ❌ | ✅ |
+
+[**→ Download Demo**](https://github.com/Aladdin88-dark/Email-Downloader-Grabber/releases)
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+<img src="Assets/Screenshots/main.png" width="820" />
+</div>
+
+<details>
+<summary><b>More screenshots</b></summary>
+<br/>
+<div align="center">
+<img src="Assets/Screenshots/imap.png" width="820" />
+<br/><br/>
+<img src="Assets/Screenshots/hotmail.png" width="820" />
+</div>
+</details>
+
+---
+
 ## 🚀 Quick Start
 
-**1.** Download the latest release from the **[Releases](../../releases)** tab
+**1.** Download the latest release from the **[Releases](https://github.com/Aladdin88-dark/Email-Downloader-Grabber/releases)** tab
 
 **2.** Extract to any folder — portable, no installation required
 
